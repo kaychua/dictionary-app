@@ -1,0 +1,12 @@
+.App {
+  font-family: "Poppins", sans-serif;
+}
+.App header {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  padding: 30px 30px 10px;
+}
+
+.App h1 {
+  font-weight: 600;
+}
