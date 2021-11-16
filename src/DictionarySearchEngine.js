@@ -14,6 +14,7 @@ export default function DictionarySearchEngine(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function load() {
