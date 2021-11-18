@@ -2,3 +2,10 @@
   margin: 0 auto;
   max-width: 80%;
 }
+
+.Results .keyword {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Spectral", serif;
+  margin-bottom: 20px;
+}

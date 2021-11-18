@@ -1,5 +1,4 @@
 .DictionarySearch form {
-  background-color: rgb(245, 245, 245);
   margin: 0 auto;
   text-align: center;
   margin-bottom: 10px;
@@ -7,15 +6,19 @@
 }
 
 .DictionarySearch input {
+  font-family: "Spectral", serif;
+  font-size: 18px;
   position: relative;
   border-radius: 5px;
   padding: 7px;
-  border: 1px solid rgb(227, 245, 255);
+  border: 1px solid #ffffff;
   width: 50%;
+  transition: all 150ms ease-in-out;
 }
 
 .DictionarySearch input:focus {
-  outline: 1px solid rgb(165, 216, 243);
+  outline: none;
+  box-shadow: 8px 8px 15px rgba(146, 146, 146, 0.1);
 }
 
 .DictionarySearch button {

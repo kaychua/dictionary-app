@@ -1,12 +1,19 @@
 .App {
-  font-family: "Poppins", sans-serif;
+  font-family: "montserrat", sans-serif;
+  background-color: #fbfbf8;
+  color: #424242;
 }
 .App header {
   text-align: center;
-  background-color: rgb(245, 245, 245);
   padding: 30px 30px 10px;
 }
 
 .App h1 {
-  font-weight: 600;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.App h2 {
+  font-size: 20px;
 }

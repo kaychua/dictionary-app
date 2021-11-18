@@ -1,0 +1,9 @@
+.Synonym span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul.Synonym {
+  padding-left: 0;
+  margin-left: 0;
+}
