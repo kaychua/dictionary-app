@@ -1,0 +1,11 @@
+.Photos {
+  text-align: center;
+  padding: 10px 40px;
+}
+
+.Photos img {
+  display: inline-block;
+  max-width: 50%;
+  padding: 5px;
+  border-radius: 7px;
+}
