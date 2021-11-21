@@ -30,7 +30,7 @@ export default function DictionarySearchEngine(props) {
 
   function search() {
     let pexelsApiKey = `563492ad6f9170000100000168c81db63fbc47b58942caca15615c70`;
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=10
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9
 `;
 
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
@@ -55,7 +55,9 @@ export default function DictionarySearchEngine(props) {
             placeholder="Search for a word"
             onChange={handleChange}
           />
-          <button type="submit">🔎</button>
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
         </form>
         <div className="row">
           <div className="col-md-7">

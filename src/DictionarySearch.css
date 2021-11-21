@@ -13,12 +13,13 @@
   padding: 7px;
   border: 1px solid #ffffff;
   width: 50%;
+  box-shadow: 8px 8px 15px rgba(211, 211, 211, 0.1);
   transition: all 150ms ease-in-out;
 }
 
 .DictionarySearch input:focus {
   outline: none;
-  box-shadow: 8px 8px 15px rgba(146, 146, 146, 0.1);
+  box-shadow: 8px 8px 15px rgba(134, 134, 134, 0.1);
 }
 
 .DictionarySearch button {
@@ -26,4 +27,8 @@
   border: none;
   right: 40px;
   background-color: #fff;
+}
+
+.DictionarySearch .fa-search {
+  color: #0d6efd;
 }

@@ -17,3 +17,7 @@
 .App h2 {
   font-size: 20px;
 }
+
+.App .row {
+  --bs-gutter-x: 0;
+}

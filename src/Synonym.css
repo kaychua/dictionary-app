@@ -1,8 +1,9 @@
 .Synonym span {
   display: inline-block;
-  margin-right: 15px;
-  font-size: smaller;
-  font-style: italic;
+  margin-right: 10px;
+  font-size: 14px;
+  font-style: normal;
+  color: rgb(117, 117, 117);
 }
 
 ul.Synonym {

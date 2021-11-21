@@ -1,4 +1,18 @@
-.Meaning h3 {
+.Meaning h3,
+.Meaning strong {
   font-family: "Spectral", serif;
   margin: 10px 0;
+}
+
+.Meaning strong {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Meaning p {
+  font-size: 16px !important;
+}
+
+.Meaning .definition {
+  margin-bottom: 7px;
 }

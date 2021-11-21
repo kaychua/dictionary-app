@@ -4,7 +4,8 @@ import "./Photos.css";
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div className="Photos img-fluid">
+      <div className="Photos">
+        <h3 className="photosHeader">images.</h3>
         {props.photos.map(function (photo, index) {
           return (
             <span>
